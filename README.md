@@ -54,7 +54,7 @@ NODE_ENV=development
 PORT=3000
 
 # Database
-MONGODB_URI=mongodb://localhost:27017/livegold-autoinvest
+MONGODB_URI=mongodb://localhost:27017/
 
 # JWT
 JWT_SECRET=your-secret-key
@@ -71,7 +71,7 @@ MAIL_HOST=smtp.example.com
 MAIL_PORT=587
 MAIL_USER=your-email@example.com
 MAIL_PASSWORD=your-password
-MAIL_FROM=noreply@livegold.com
+MAIL_FROM=noreply@example.com
 
 # Other
 SALT_ROUNDS=10
