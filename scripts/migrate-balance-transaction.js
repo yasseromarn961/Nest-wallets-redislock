@@ -6,7 +6,7 @@ const path_1 = require("path");
 (0, dotenv_1.config)({ path: (0, path_1.resolve)(__dirname, '../.env') });
 async function migrate() {
     try {
-        const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/livegold';
+        const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/example';
         console.log('Connecting to MongoDB...');
         await (0, mongoose_1.connect)(mongoUri);
         console.log('Connected successfully.\n');

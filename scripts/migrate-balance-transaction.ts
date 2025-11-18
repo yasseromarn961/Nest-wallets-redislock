@@ -16,7 +16,7 @@ config({ path: resolve(__dirname, '../.env') });
 async function migrate() {
   try {
     const mongoUri =
-      process.env.MONGO_URI || 'mongodb://localhost:27017/livegold';
+      process.env.MONGO_URI || 'mongodb://localhost:27017/example';
     console.log('Connecting to MongoDB...');
     await connect(mongoUri);
     console.log('Connected successfully.\n');
