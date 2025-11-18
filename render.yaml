@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: Nest-backend
+    env: node
+    plan: free
+    buildCommand: npm install && make compile
+    startCommand: npm run start:render
+    envVars:
+      - key: NODE_ENV
+        value: production
