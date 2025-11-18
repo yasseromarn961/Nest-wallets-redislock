@@ -1,4 +1,4 @@
-#  Auto-Invest Backend
+#  Nestjs Temaplate Backend
 
 A robust NestJS-based backend application for the  trading platform, providing comprehensive API services for user management, location services, and address management.
 
